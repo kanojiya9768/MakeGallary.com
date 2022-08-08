@@ -1,7 +1,7 @@
 const searchParam = location.search.split('=').pop();
 
 
-const access_key = "mrH5WvENYophkHjCt5rp3JSvqLTvUhAKYPDNzHxFLhc";
+const access_key = "1LuExrG1LjWIWY8Hl3eFNWNGqPWXSHJVHQ7n-H4muys";
 
 const random_photo_url = `https://api.unsplash.com/photos/random?client_id=${access_key}&count=30`;
 const search_photo_url = `https://api.unsplash.com/search/photos?client_id=${access_key}&query=${searchParam}&per_page=50`;
